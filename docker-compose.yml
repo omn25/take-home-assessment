@@ -1,0 +1,21 @@
+# Docker Compose configuration for local PostgreSQL development
+# This is now optional since the app uses Supabase
+# Uncomment and use only if you want to run a local PostgreSQL instance
+
+# version: '3.9'
+# services:
+#   db:
+#     image: postgres:16
+#     container_name: contacts_app_db
+#     restart: unless-stopped
+#     environment:
+#       POSTGRES_USER: appuser
+#       POSTGRES_PASSWORD: apppass
+#       POSTGRES_DB: contacts_db
+#     ports:
+#       - '5432:5432'
+#     volumes:
+#       - pg_data:/var/lib/postgresql/data
+#       - ./db/init:/docker-entrypoint-initdb.d
+# volumes:
+#   pg_data:
