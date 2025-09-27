@@ -1,6 +1,6 @@
-# Contacts Management Application
+# take-home-assessment
 
-A modern, full-featured contacts management application with advanced UI/UX, duplicate detection, and comprehensive contact management capabilities.
+A full-stack contact management app built with Next.js and PostgreSQL that allows users to add, edit, and organize contacts.
 
 ## 🚀 Tech Stack
 
@@ -250,5 +250,3 @@ For the next engineer, ensure you have:
 - [ ] Development server running (`npm run dev`)
 - [ ] Build passing (`npm run build`)
 - [ ] No linting errors (`npm run lint`)
-
-The codebase is production-ready with comprehensive error handling, type safety, and excellent user experience!
